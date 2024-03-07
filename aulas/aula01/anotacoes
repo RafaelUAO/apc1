@@ -1,0 +1,35 @@
+ls = localizar;
+cd = selecionar/entar;
+gcc = compilar arquivo;
+-o = nomear program;
+./ (nome do arquivo ) = inicia o programa; 
+rm = deleta arquivo(file);
+%f = usa com printf quando flutuante;
+%i = usa com printf quando inteiro;
+const = para adicionar "varíavel que não pode mudar" const é igual a constante;
+& é um operador que nos permite acessar e modificar um endereço de memória de uma variável.
+
+TIPOS PRIMITIVOS C:
+char = caractaer;
+int = inteiros;
+float = flutuantes com 06 casas;
+double = flutuante com 15 casas;
+void = sem valor;
+
+signed char = caracter com sinal (-128 a 127);
+unsigned char = caracter sem_sinal (0 a 255);
+
+signed int = inteiro com sinal (-2bi a 2 bi  4 bytes);
+unsigned int = inteiro sem sinal ( 0 a 4bi);
+
+short int = inteiro curto com sinal ( -32 a 32mil);
+unsigned shart int = inteiro curto sem sinal ( 0 a 65mil)
+
+long int = inteiro longo com sinal ( -9hexa a 9hexa  8 bytes)
+unsigned long int = inteiro curto sem sinal ( 0 a 18hexa)
+
+long double = duplo longo ( -1.2e+4932 a 1.2e4932)
+
+*Não existe str em c - mas aceita aspas duplas.
+*signed (com)
+*unsigned (sem)
