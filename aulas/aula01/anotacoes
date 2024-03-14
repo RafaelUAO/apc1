@@ -7,7 +7,8 @@ rm = deleta arquivo(file);
 %f = usa com printf quando flutuante;
 %i = usa com printf quando inteiro;
 const = para adicionar "varíavel que não pode mudar" const é igual a constante;
-& é um operador que nos permite acessar e modificar um endereço de memória de uma variável.
+% informa uma mascara;
+& é um operador que nos permite acessar e modificar um endereço de memória de uma variável. (utilizado somente no scanf)
 
 TIPOS PRIMITIVOS C:
 char = caractaer;
@@ -33,3 +34,28 @@ long double = duplo longo ( -1.2e+4932 a 1.2e4932)
 *Não existe str em c - mas aceita aspas duplas.
 *signed (com)
 *unsigned (sem)
+
+TIPOS DE DADOS EM C:
+tipos basicos;
+tipos de enumeração;
+tipo void;
+tipos deriados;
+
+OPERADORES ARITMETICOS EM C:
++ = soma;
+- = subtração;
+* = multiplicação;
+/ = diisão;
+% = modulo;
+pow() = potenciação; (biblioteca math.h)
+/ = divisão inteira
+
+OPERADORES RELACIONAIS EM C; 
+> = maior que; (x > y|x é maior que Y?)
+>= = maior ou igual que;(x >= y|x é maior ou igual a y?)
+< = menor que;(x < Y|x é menor que Y?)
+<= menor ou igual que;(x <= y|x é menor ou igual a y?)
+== = igualdade;(x == y|x é igual a y?)
+!= = diferente de;(x != Y|x é diferente que y?)
+*VERDADEIRO = 1
+*FALSO = 0
