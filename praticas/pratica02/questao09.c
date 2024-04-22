@@ -7,7 +7,11 @@
 int main() {
 
   int numero = 0;
+  
+  printf("Digite um número: ");
+  int deu_certo = scanf("%i", &numero);
 
+  printf("O número: %i, é correspondente na tabela ASCII o caractere: %c\n", numero, numero);
 
   return 0;
 }
